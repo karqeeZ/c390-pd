@@ -8,6 +8,70 @@
 
   .container {
     display:flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-container {
+    max-width: 800px;
+    width: 90%;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .profile p {
+    color: white;
+    font-style: italic;
+  }
+  
+  .about-content {
+    width: 100%;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: white;
+    border-bottom: 2px solid #00FFFF;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .intro p,
+  .hobbies p {
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .skills li {
+    margin-bottom: 5px;
+    color: white;
   }

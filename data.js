@@ -3,7 +3,7 @@ const data = {
         title: 'Hello',
         introText: `My name is Johnson Chong, <br>
                     and I enjoy <em>designing</em> and <em>developing</em>.`,
-        description: `Feel free to look around!`
+        description: `Feel free to look around!`,
     },
     project: [
         {
