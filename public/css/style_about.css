@@ -1,0 +1,13 @@
+.title-p {
+    text-align: left;
+    text-decoration: underline 2px solid;
+    text-decoration-color: #00FFFF;
+    font-size: 45px;
+    font-family: 'Elephant',sans-serif;
+  }
+
+  .container {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }

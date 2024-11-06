@@ -1,0 +1,107 @@
+/* Section Container Styling */
+.section-container {
+  border: 2px solid #00FFFF;
+  border-radius: 20px;
+  margin: 20px auto; /* Centers and adds spacing around sections */
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for contrast */
+  max-width: 1200px;
+}
+
+/* Section Title Styling */
+.section-title {
+  font-weight: bold;
+  font-size: 35px;
+  color: #1A547B;
+  text-align: center;
+  margin-bottom: 20px;
+  text-decoration: underline 2px solid #00FFFF;
+}
+
+/* Grid Container Adjustments */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(900px, 3fr));
+  gap: 20px;
+}
+
+/* Card Styling */
+.card {
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.2s ease;
+  border: 2px solid #00FFFF; /* Soft border for each card */
+  background-color: #1A547B;
+}
+
+.card-title {
+  color: white;
+  font-family: 'Elephant', sans-serif;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  z-index: 2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.link-p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.contain {
+  padding: 35px;
+  justify-content: center;
+}
+
+.title-p {
+  text-align: left;
+  text-decoration: underline 2px solid;
+  text-decoration-color: #00FFFF;
+  font-size: 45px;
+  font-family: 'Elephant',sans-serif;
+}
+
+.header-p {
+  color: white;
+  text-align: left;
+  margin-bottom: 30px;
+  text-decoration: underline #00FFFF;
+}
+
+
+/* Responsive Styles */
+/* @media (max-width: 768px) {
+  .section-title {
+    font-size: 30px;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    width: max-content;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-container {
+    padding: 15px;
+  }
+  .section-title {
+    font-size: 25px;
+    padding: 10px;
+  }
+  .link-p {
+    font-size: 13px;
+  }
+} */

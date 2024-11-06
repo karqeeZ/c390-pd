@@ -1,0 +1,49 @@
+@import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
+@import url('https://fonts.cdnfonts.com/css/elephant');
+
+body {
+    background-color: #1e2a47;
+    font-family: 'Century Gothic Paneuropean', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+.navbar {
+    top: 0;
+    z-index: 1000;
+    padding: 30px;
+    
+  }
+  
+  .nav-link {
+    padding: 1px;
+    border: white 2px solid;
+    position: relative;
+    overflow: hidden; /* Hide the overflow for the flash effect */
+    margin-left: 15px;
+    color: white;
+}
+
+.navbar-toggler {
+  color: #00FFFF;
+  border: #00FFFF 3px solid;
+  background-color: #1A547B;
+}
+
+
+.nav-link:hover {
+    transform: scale(1.2);
+    color: #00FFFF;
+    transition: transform 0.2s ease;
+}
+
+.nav-link:not(:hover) {
+  transition: transform 0.2s ease;
+  transform: scale(1);
+}
+
+@media (max-width:480px) {
+  .nav-item {
+    margin-bottom: 5px;
+  }
+}
