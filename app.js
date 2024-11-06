@@ -1,15 +1,13 @@
 const express = require('express');
 const path = require('path');
-const data = require('./data');  // Import the data module
-
-// Initialize Express app
+const data = require('./data'); 
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.set('view engine', 'ejs');
-app.set('views', './views');
+app.set('views', path.join(__dirname, 'views'));
 
 // Route handlers
 app.get('/', (req, res) => {
@@ -42,7 +40,6 @@ app.get('/about', (req, res) => {
     res.render('about', { me: data.about });
 });
 
-// Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
