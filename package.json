@@ -4,13 +4,8 @@
   "description": "",
   "main": "app.js",
   "engines": {
-<<<<<<< HEAD
-     "node": "18.x"
-  },
-=======
     "node": "18.x"
- },
->>>>>>> e36f080 (install ejs)
+  },
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
