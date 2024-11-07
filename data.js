@@ -14,7 +14,8 @@ const data = {
             `,
             description:`
             Now, a quick technical breakdown, this web application utilised softwares like <em>Node.js, Express, MySQL, JavaScript, CSS, Bootstrap and HTML</em>. They all play a part in their role to help put together the final product that you see above in the images.
-            <br><br>This project was quite the challenge for me as it was my first attempt at making a whole web application. However, it was incredibly rewarding, especially in those moments when all my tests passed successfully, validating the effort i've put into it.`,
+            <br><br>This project was quite the challenge for me as it was my first attempt at making a whole web application. However, it was incredibly rewarding, especially in those moments when all my tests passed successfully, validating the effort i've put into it.<br><br>
+            <a class="link-d" href="https://github.com/karqeeZ/MealPlanApp.git">Take a look at the file structure!</a>`,
             items: [
                 { src: '/images/p1/main.png', type: 'image', description: 'Landing Page with healthy eating articles with reccommended recipes on the right' },
                 { src: '/images/p1/recipe.png', type: 'image', description: 'Ready to go recipes' },
@@ -24,7 +25,7 @@ const data = {
                 { src: '/images/p1/review.png', type: 'image', description: 'Community sharing of ratings and comments' },
                 { src: '/images/p1/about.png', type: 'image', description: 'More about NutriNourish' }
             ],
-            type: 'development'
+            type: 'development',
         },
         {
             id: 2,
@@ -115,7 +116,7 @@ const data = {
         
         // Add more projects as needed
     ],
-    contact: {
+    about: {
         message: `Interested in <br><em>working</em> together?`,
         email: 'johnson@example.com',
         github: 'https://github.com/karqeeZ?tab=repositories',

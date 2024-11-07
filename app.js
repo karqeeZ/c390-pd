@@ -32,12 +32,8 @@ app.get('/projects/:id', (req, res) => {
     }
 });
 
-app.get('/contact', (req, res) => {
-    res.render('contact', { contact: data.contact });
-});
-
 app.get('/about', (req, res) => {
-    res.render('about', { me: data.about });
+    res.render('about', { about: data.about });
 });
 
 const PORT = process.env.PORT || 3000;

@@ -139,3 +139,14 @@ em {
   font-family: 'Elephant', sans-serif;
   letter-spacing: 1px;
 }
+
+.link-d {
+  color: white;
+  font-family: 'Elephant', sans-serif;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.link-d:hover {
+  text-decoration: underline #00FFFF;
+}

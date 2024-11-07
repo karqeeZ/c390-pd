@@ -17,11 +17,12 @@ body {
   
   .nav-link {
     padding: 1px;
-    border: white 2px solid;
     position: relative;
     overflow: hidden; /* Hide the overflow for the flash effect */
     margin-left: 15px;
     color: white;
+    font-size: 20px;
+    font-style: italic ;
 }
 
 .navbar-toggler {
@@ -33,8 +34,9 @@ body {
 
 .nav-link:hover {
     transform: scale(1.2);
-    color: #00FFFF;
     transition: transform 0.2s ease;
+    color: white;
+    text-decoration: underline #00FFFF;
 }
 
 .nav-link:not(:hover) {

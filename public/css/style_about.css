@@ -34,10 +34,16 @@
   }
   
   h1 {
-    font-size: 24px;
+    font-size: 28px;
     color: white;
     margin-bottom: 5px;
   }
+
+.intro h2,
+.skills h2,
+.hobbies h2 {
+    font-size: 26px;
+}
   
   .profile p {
     color: white;
@@ -61,9 +67,11 @@
   }
   
   .intro p,
-  .hobbies p {
+  .hobbies p,
+  .skills p {
     margin-bottom: 15px;
     color: white;
+    font-size: 18px;
   }
   
   .skills ul {
@@ -75,3 +83,156 @@
     margin-bottom: 5px;
     color: white;
   }
+
+  h3 {
+    font-weight: bold;
+}
+
+.container-c {
+    padding: 100px;
+}
+
+.row {
+    justify-content: center;
+    align-content: center;
+}
+
+.working {
+    color: #37e2cf;
+    font-style: italic;
+}
+
+.custom-underline {
+    width: 70%;
+    border-bottom: #00FFFF solid 5px;
+}
+
+.contact-info p {
+    font-size: 24px;
+    padding: 25px;
+}
+
+/* Input Fields */
+.custom-input {
+    background-color: #1A547B;
+    border: 2px solid #00FFFF;
+    color: #fff;
+    border-radius: 18px;
+    padding: 10px 15px;
+}
+
+.custom-input::placeholder {
+    color: white;
+    font-family: 'Elephant', sans-serif;
+    font-size: 24px;
+}
+
+/* Send Button */
+.custom-button {
+    background-color: #00FFFF;
+    color: #1e2a47;
+    font-weight: bold;
+    font-family: 'Elephant', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 20px;
+    width: 100px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #1e2a47;
+    color: #00FFFF;
+    border: #00FFFF 1px solid;
+}
+
+.custom-icon {
+    width: 85px;
+    transition: transform 0.3s ease;
+}
+
+.custom-icon:hover {
+    transform: scale(1.2);
+}
+
+.custom-msg em {
+    font-family: 'Elephant', sans-serif;
+    color: #8739e0;
+    letter-spacing: 1px;
+}
+
+.custom-col {
+    padding: 25px;
+}
+
+@media (max-width: 992px) {
+    .container-c {
+        padding: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-c {
+        padding: 30px;
+    }
+    
+    .contact-info p {
+        font-size: 20px;
+        padding: 15px;
+    }
+    
+    .custom-input {
+        padding: 8px 12px;
+        font-size: 20px;
+    }
+    
+    .custom-button {
+        font-size: 18px;
+        padding: 6px 15px;
+        width: 90px;
+    }
+    
+    .custom-icon {
+        width: 65px;
+    }
+    
+    .custom-underline {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-c {
+        padding: 30px;
+    }
+    
+    .contact-info p {
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    .custom-input {
+        padding: 6px 10px;
+        font-size: 18px;
+    }
+    
+    .custom-button {
+        font-size: 16px;
+        padding: 5px 12px;
+        width: 80px;
+    }
+    
+    .custom-icon {
+        width: 55px;
+    }
+    
+    .custom-underline {
+        width: 90%;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+}
