@@ -6,19 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Johnson_Chong_Portfolio_2024</title>
+    <title>Johnson | Portfolio</title>
     <link rel="stylesheet" href="/css/style_about.css">
     <link rel="stylesheet" href="/css/general.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "tf3_YxvKcoCN7tgzo",
+            });
+        })();
+    </script>
 </head>
 
 <body>
     <%- include ('partials/navbar') %>
+        <p class="scroll-watcher"></p>
         <h3 class="title-p text-center my-4">About Me</h3>
         <div class="container">
             <div class="about-container">
                 <div class="profile">
-                    <img src="https://averyonline.com.sg/wp-content/themes/sw_maxshop/assets/img/placeholder/full.png" alt="Your Profile Picture" class="profile-img">
-                    <h1>Johnson Chong</h1>
+                    <img src="/images/profile.jpg" alt="Profile Picture" class="profile-img">
                 </div>
 
                 <div class="about-content">
@@ -59,33 +68,39 @@
                     <hr class="custom-underline">
                     <div class="contact-info mt-4 row justify-content-start">
                         <div class="col-auto d-flex align-items-center me-3">
-                            <a href="<%- about.github %>" class="ms-2"><img src="/images/github-icon.png" alt="GitHub icon" class="custom-icon"></a>
+                            <a href="<%- about.github %>" class="ms-2"><img src="/images/github-icon.png"
+                                    alt="GitHub icon" class="custom-icon"></a>
                         </div>
                         <div class="col-auto d-flex align-items-center">
-                            <a href="<%- about.linkedin %>" class="ms-2"><img src="/images/linkedin.png" alt="LinkedIn icon" class="custom-icon"></a>
+                            <a href="<%- about.linkedin %>" class="ms-2"><img src="/images/linkedin.png"
+                                    alt="LinkedIn icon" class="custom-icon"></a>
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <div class="col-md-4">
-                    <form>
+                    <form id="contact-form">
                         <div class="mb-3">
-                            <input type="text" class="form-control custom-input" placeholder="Name*" required>
+                            <input type="text" id="name" class="form-control custom-input" name="name" placeholder="Name*"
+                                required>
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control custom-input" placeholder="Email*" required>
+                            <input type="email" id="email" class="form-control custom-input" name="email" placeholder="Email*"
+                                required>
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control custom-input" rows="7" placeholder="Message"
+                            <textarea class="form-control custom-input" id="message" name="message" rows="7" placeholder="Message"
                                 required></textarea>
                         </div>
-                        <button type="submit" class="btn custom-button">Send</button>
+                        <button type="submit" onclick="sendEmail()" class="btn custom-button">Send</button>
                     </form>
                 </div>
+
             </div>
         </div>
-
+        <%- include ('partials/footer') %>
+            <script src="/js/email.js"></script>
 </body>
 
 </html>

@@ -9,22 +9,23 @@
   <link rel="stylesheet" href="/css/style_details.css">
   <link rel="stylesheet" href="/css/general.css">
   <title>
-    <%= project.name %> - Johnson_Chong_Portfolio_2024
+    <%= project.name %> - Johnson | Portfolio
   </title>
 </head>
 
 <body>
+  <p class="scroll-watcher"></p>
   <%- include('partials/navbar') %>
     <div class="text-center custom-project-details">
       <h2 class="custom-project-title mt-4">
         <%= project.name %>
       </h2>
     </div>
-
-    <div class="desc-main">
-      <p><%- project.descriptionOver %></p>
-    </div>
-
+    <section class="container my-3">
+      <div class="desc-main">
+        <p><%- project.descriptionOver %></p>
+      </div>
+    </section>
     <section class="container my-3">
       <div id="projectCarousel" class="carousel slide mb-4" data-bs-ride="carousel" data-bs-interval="5000"
         data-bs-pause="hover">
@@ -67,16 +68,13 @@
           <a href="<%= project.link %>" class="custom-btn" target="_blank">View Project</a>
         </div>
         <% } %>
-        <div class="desc-main">
-          <p><%- project.description %></p>
-        </div>
-        <button class="btn-d" onclick="window.location.href='/projects'">Back</button>
+          <div class="desc-main">
+            <p><%- project.description %></p>
+          </div>
+          <button class="btn-d" onclick="window.location.href='/projects'">Back</button>
     </section>
-
-
-
-    <script src="/js/carousel-timer.js"></script>
     <script src="/js/des-p.js"></script>
 </body>
+<%- include ('partials/footer') %>
 
 </html>
