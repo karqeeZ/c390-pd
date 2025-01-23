@@ -15,7 +15,8 @@ const data = {
             description: `
             Now, a quick technical breakdown, this web application utilised software tools like <em>Node.js, Express, MySQL, JavaScript, CSS, Bootstrap and HTML</em>. They all play a part in their role to help put together the final product that you see above in the images.
             <br><br>This project was quite the challenge for me as it was my first attempt at making a whole web application. However, it was incredibly rewarding, especially in those moments when all my tests passed successfully, validating the effort i've put into it.<br><br>
-            <a class="link-project" href="https://github.com/karqeeZ/MealPlanApp.git"><em>Take a look at the file structure!</em></a>`,
+            <a class="link-project" href="https://github.com/karqeeZ/MealPlanApp.git"><em>Take a look at the file structure!</em></a><br> 
+            <a class="link-project" href="https://myrp-my.sharepoint.com/:b:/g/personal/23009886_myrp_edu_sg/Ee9WrvEEtMxFtVZSJQxQWYsBdnthaSK_QnwS5Zc-Kbp-eg?e=MM0g0x"><em>Have a look at the Webpages</em>`,
             items: [
                 { src: '/images/p1/main.png', type: 'image', description: 'Landing Page with healthy eating articles with reccommended recipes on the right' },
                 { src: '/images/p1/recipe.png', type: 'image', description: 'Ready to go recipes' },
