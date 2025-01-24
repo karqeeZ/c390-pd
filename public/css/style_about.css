@@ -272,3 +272,19 @@
         font-size: 20px;
     }
 }
+
+.row {
+  padding: 20px;
+  font-size: 22px;
+}
+
+.link-style {
+  color: #ffffff;
+  text-decoration:underline solid 2px #00FFFF;
+  transition: background-color 0.3s ease;
+  text-align: left;
+}
+
+.link-style:hover {
+  color: #00FFFF;
+}
