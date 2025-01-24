@@ -52,10 +52,10 @@ const data = {
             the checkout process seamless and functional.`,
             items: [
                 { src: '/images/p9/all.png', type: 'image', description: 'Home page for my 4 react native projects' },
-                { src: '/video/p9-nativeGshop.mp4', type: 'video', description: 'This is an online game store' },
-                { src: '/video/p9-nativeBshop.mp4', type: 'video', description: `Here's a book tracking system` },
-                { src: '/video/p9-nativeC.mp4', type: 'video', description: 'Currency conversion search by USD' },
-                { src: '/video/p9-nativeQ.mp4', type: 'video', description: 'Quiz on country flags from all over world' },
+                { src: '/video/p9-nativeGshop.mov', type: 'video', description: 'This is an online game store' },
+                { src: '/video/p9-nativeBshop.mov', type: 'video', description: `Here's a book tracking system` },
+                { src: '/video/p9-nativeC.mov', type: 'video', description: 'Currency conversion search by USD' },
+                { src: '/video/p9-nativeQ.mov', type: 'video', description: 'Quiz on country flags from all over world' },
             ],
             type: 'development'
         },
@@ -74,7 +74,7 @@ const data = {
                 { src: '/images/p3/irl.jpg', type: 'image', description: "Take a look at the real thing" },
                 { src: '/images/p3/keyboard.jpg', type: 'image', description: 'Keyboard model for the AKKO SPR 75' },
                 { src: '/images/p3/pegboard.jpg', type: 'image', description: 'Pegboard for my controller and headphones' },
-                { src: '/video/p3-3dsetup.mp4', type: 'video', description: 'This project presented an exciting challenge bringing real-life objects into a 3D simulation' }
+                { src: '/video/p3-3dsetup.mov', type: 'video', description: 'This project presented an exciting challenge bringing real-life objects into a 3D simulation' }
             ],
             type: 'design'
         },
@@ -98,7 +98,7 @@ const data = {
                 { src: '/images/p4/Hi-Fi.png', type: 'image', description: "Welcome to Dine2Gather!" },
                 { src: '/images/p4/overview.png', type: 'image', description: "Here's an overview of the wireframes." },
                 { src: '/images/p4/sitemap.png', type: 'image', description: 'This is the sitemap layout of the wireframe.' },
-                { src: '/video/p4-Dine2Gather.mp4', type: 'video', description: "Here's how it works!" }
+                { src: '/video/p4-Dine2Gather.mov', type: 'video', description: "Here's how it works!" }
             ],
             type: 'design'
         },
@@ -120,7 +120,7 @@ const data = {
             items: [
                 { src: '/images/p5/hi-fi.png', type: 'image', description: 'Heres the overview of the Hi-Fidelity Wireframe' },
                 { src: '/images/p5/uikit.png', type: 'image', description: 'The UI kit used for StyleShop' },
-                { src: '/video/styleshop.mp4', type: 'video', description: 'Sample video navigating through the pages' }
+                { src: '/video/styleshop.mov', type: 'video', description: 'Sample video navigating through the pages' }
             ],
             type: 'design'
         },
@@ -172,9 +172,9 @@ triggering of subsequent events, such as the number code that appeared on the co
             ensured efficiency in design iteration and a polished final product.<br><br><a class="link-project" href="https://www.figma.com/design/s7yy5klNniewNc8JW48TVw/CA3-StyleShop?node-id=0-1&t=I79FoyA5QiB2cEFx-1"><em>Click here to have a closer look!</em></a>`,
             items: [
                 { src: '/images/p8/all.png', type: 'image', description: `Heres all the react list applications I've made` },
-                { src: '/video/p8-reactP.mp4', type: 'video', description: 'This is a pizza list app with filtering functions through inputing text' },
-                { src: '/video/p8-reactT.mp4', type: 'video', description: 'This is a packing/travel list with a checking function' },
-                { src: '/video/p8-reactW.mp4', type: 'video', description: `Here's a Workout set tracker that takes in inputs to form cards` },
+                { src: '/video/p8-reactP.mov', type: 'video', description: 'This is a pizza list app with filtering functions through inputing text' },
+                { src: '/video/p8-reactT.mov', type: 'video', description: 'This is a packing/travel list with a checking function' },
+                { src: '/video/p8-reactW.mov', type: 'video', description: `Here's a Workout set tracker that takes in inputs to form cards` },
             ],
             type: 'development'
         },
@@ -220,9 +220,9 @@ and detail.`,
             <br><br><a class="link-project" href="https://karqeez.github.io/JsGames/"><em>Hop on! These classic games are waiting for you!</em></a>`,
             items: [
                 { src: '/images/p2/home.png', type: 'image', description: 'Home page for game hub showcasing 3 games' },
-                { src: '/video/p2-gamehub.mp4', type: 'video', description: 'Snake' },
-                { src: '/video/p2-gamehub-tic.mp4', type: 'video', description: 'Tic Tac Toe' },
-                { src: '/video/p2-gamehub-type.mp4', type: 'video', description: 'Speed Typing' },
+                { src: '/video/p2-gamehub.mov', type: 'video', description: 'Snake' },
+                { src: '/video/p2-gamehub-tic.mov', type: 'video', description: 'Tic Tac Toe' },
+                { src: '/video/p2-gamehub-type.mov', type: 'video', description: 'Speed Typing' },
             ],
             type: 'development'
         },
