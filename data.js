@@ -158,18 +158,24 @@ triggering of subsequent events, such as the number code that appeared on the co
         {
             id: 8,
             name: 'List applications with React',
-            descriptionOver: `<em>StyleShop</em> is a mobile fashion e-commerce application designed to deliver a seamless shopping 
-            experience.<br><br>Its features include:<br>  <ul>
-    <li>Essential pages: Home, Product Catalogue, Product Detail, Cart, and Checkout.</li>
-    <li>Interactive components: dropdown selectors, quantity pickers, buttons, and input fields.</li>
-    <li>Animated elements: checkout screen loader and carousel image banner.</li>
-  </ul>`,
-            description: `This project involved creating a comprehensive UI kit for <em>StyleShop</em>, including components, variants, 
-            fonts, and colors to maintain design consistency. Components such as buttons, dropdowns, and loaders were built 
-            with scalability in mind, while variants were utilized to account for different states like hover, active, and 
-            disabled. The typography system was carefully selected to balance readability and style, while the color palette 
-            was designed to align with the brand's identity and provide a visually cohesive experience. This structured approach 
-            ensured efficiency in design iteration and a polished final product.<br><br><a class="link-project" href="https://www.figma.com/design/s7yy5klNniewNc8JW48TVw/CA3-StyleShop?node-id=0-1&t=I79FoyA5QiB2cEFx-1"><em>Click here to have a closer look!</em></a>`,
+            descriptionOver: `As I delved into React development, I focused on creating web list applications that implemented CRUD 
+            (Create, Read, Update, Delete) functionality. Through this journey, I explored key React concepts such as:<br>
+            <ul>
+                <li>Understanding Components & JSX</li>
+                <li>Managing State with Hooks</li>
+                <li>Handling Events for User Interaction</li>
+                <li>Conditional Rendering for UI Updates</li>
+                <li>Rendering Lists Dynamically</li>
+                <li>Implementing Routing with React Router</li>
+                <li>Fetching & Managing Data from an API</li>
+            </ul>
+`,
+            description: `Building a CRUD-based web list application in React allowed me to solidify my understanding of core React concepts. 
+            Breaking down the UI into reusable components, managing state effectively, handling user interactions, dynamically rendering lists, 
+            and integrating routing and API calls all played a crucial role in developing a functional and scalable application.
+            <br><br>
+            This project deepened my appreciation for React’s flexibility and how efficiently it enables dynamic UI updates. Moving forward, I aim 
+            to refine my projects further by improving form validation, optimizing API interactions, and exploring advanced state management techniques.`,
             items: [
                 { src: '/images/p8/all.png', type: 'image', description: `Heres all the react list applications I've made` },
                 { src: '/video/p8-reactP.mov', type: 'video', description: 'This is a pizza list app with filtering functions through inputing text' },
